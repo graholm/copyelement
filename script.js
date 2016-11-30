@@ -7,13 +7,9 @@
 
 var elementsList = $("#elements-list")
 
-$( ".element" ).clone().appendTo( ".col-xs-2 col-xs-offset-3 text-center");
-$( ".element" ).clone().appendTo( ".col-xs-2 col-xs-offset-3 text-center");
-$( ".element" ).clone().appendTo( ".col-xs-2 col-xs-offset-3 text-center");
-
-
-
-
-//console.log ($( ".element" ).length)
+$( "#element" ).clone().appendTo("#elements-list");
+console.log ($( ".element" ).length)
+$( "#element" ).clone().appendTo("#elements-list");
+console.log ($( ".element" ).length)
 
 
