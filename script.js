@@ -14,8 +14,8 @@ $(elementsList).append(el.clone())
                       
 var a = ["red", "blue", "green", "purple"]
 a.forEach (function(color){
+  
   console.log (color)
- $("#elements-container") (5)
 })
 
 
