@@ -6,15 +6,11 @@
 
 var elementsList = $("#elements-list")
 var el= $( ".element" )
-$(elementsList).append(el.clone())
-$(elementsList).append(el.clone())
-$(elementsList).append(el.clone())
-$(elementsList).append(el.clone())
-$(elementsList).append(el.clone())
+
                       
 var a = ["red", "blue", "green", "purple"]
 a.forEach (function(color){
-  
+  $(elementsList).append(el.clone().css())
   console.log (color)
 })
 
