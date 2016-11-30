@@ -13,5 +13,6 @@ $(elementsList).append(el.clone())
 $(elementsList).append(el.clone())
                       
 var a = ["red" "blue" "green" "purple"]
-.forEach (f(color))
+a.forEach (function(color))
+
 
