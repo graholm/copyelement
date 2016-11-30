@@ -8,7 +8,7 @@ var elementsList = $("#elements-list")
 var el= $( ".element" )
 
                       
-var a = ["lightpink", "lightblue", "lightgreen", "#eac58c", "purple" ]
+var a = ["lightpink", "lightblue", "lightgreen", "#eac58c", "#dea5ff"]
 a.forEach (function(color){
   $(elementsList).append(el.clone().css("background-color", color))
 })
