@@ -1,4 +1,5 @@
 .element {
+ center;
   width: 380px;
   height: 90px;
   border: 2px solid black;
